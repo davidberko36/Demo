@@ -1,0 +1,8 @@
+python -m venv <name_of_virtual_environment>
+<name_of_virtual_environment>\Scripts\activate.bat
+pip install django
+django-admin startproject <project_name>
+cd <project_name>
+python manage.py startapp <app_name>
+python manage.py makemigrations
+python manage.py migrate
